@@ -1,5 +1,5 @@
-t1 = str(input('Detta program ska visa de bästa spelarna som bär ett specifikt nummer i NHL - Klicka Enter')) # välkomnar dig till miniräknaren
-print('Välj mellan vilka nummer du vill se: ') # frågar vilket räknesätt du vill använda eller om du vill avsluta
+t1 = str(input('Detta program ska visa de bästa spelarna som bär ett specifikt nummer i NHL - Klicka Enter'))
+print('Välj mellan vilka nummer du vill se: ')
 print('1. 1-25') 
 print('2. 26-50') 
 print('3. 51-75') 
