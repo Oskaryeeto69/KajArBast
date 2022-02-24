@@ -1,16 +1,18 @@
+
 t1 = str(input('Detta program ska visa de bästa spelarna som bär ett specifikt nummer i NHL - Klicka Enter'))
 print('Välj mellan vilka nummer du vill se: ')
 print('1. 1-25') 
 print('2. 26-50') 
 print('3. 51-75') 
 print('4. 76-99') 
+print('5. Avsluta programmet')
 from lista123 import lista1
 from lista123fakta import lista2
 while True: 
 
-    val = input('Välj mellan vilka nummer du vill se (1 , 2, 3, 4) ')
+    val = input('Välj mellan vilka nummer du vill se (1 , 2, 3, 4, 5) ')
 
-    if val in('1', '2', '3', '4'): 
+    if val in('1', '2', '3', '4', '5'): 
        
         if val == '1':
             print (lista1[0:24])
@@ -36,6 +38,9 @@ while True:
             it2 = int(t2)
             spelare = (lista2[it2-1])
             print(spelare)
+        elif val == '5':
+            break
+        
 
 else:
-    print("sheesh")
+    print("doh")
